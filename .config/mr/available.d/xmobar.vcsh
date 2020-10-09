@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/xmobar.git]
+checkout = vcsh clone git@github.com:CaninoDev/xmobar.git xmobar
+update = vcsh xmobar pull
+push = vcsh xmobar push
+status = vcsh xmobar status
+gc = vcsh xmobar gc

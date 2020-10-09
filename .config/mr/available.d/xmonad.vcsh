@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/xmonad.git]
+checkout = vcsh clone git@github.com:CaninoDev/xmonad.git xmonad
+update = vcsh xmonad pull
+push = vcsh xmonad push
+status = vcsh xmonad status
+gc = vcsh xmonad gc

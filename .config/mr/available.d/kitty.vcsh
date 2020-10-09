@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/kitty.git]
+checkout = vcsh clone git@github.com:CaninoDev/kitty.git kitty
+update = vcsh kitty pull
+push = vcsh kitty push
+status = vcsh kitty status
+gc = vcsh kitty gc

@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/zsh.vcsh]
+checkout = vcsh clone git@github.com:CaninoDev/zsh.git zsh
+update = vcsh zsh pull
+push = vcsh zsh push push
+status = vcsh zsh status
+gc = vcsh zsh gc
